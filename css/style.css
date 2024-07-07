@@ -38,13 +38,17 @@ a:visited .white {
 }
 
 h1 {
+  background: linear-gradient(83deg, #232526 0%, #414345 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
   font-size: 3.5rem;
 }
 
 h2 {
   line-height: 110%;
   font-size: 2.2rem;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-weight: 700;
 }
 
@@ -327,7 +331,7 @@ h2 {
   font-size: 22px;
   font-weight: 500;
   letter-spacing: 1px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 #hero .btn-scroll {
@@ -466,4 +470,36 @@ h2 {
   padding: 8px 16px;
   border: none;
   cursor: pointer;
+}
+
+/* =====================================cursor===================================== */
+.cursor {
+  position: fixed;
+  width: 40px;
+  height: 40px;
+  margin-left: -20px;
+  margin-top: -20px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  transition: transform 0.2s ease;
+
+  transform-origin: center center;
+  pointer-events: none;
+  z-index: 1000;
+  mix-blend-mode: difference;
+}
+
+.grow {
+  transform: scale(4);
+  background: #fff;
+
+  mix-blend-mode: difference;
+  border: none;
+}
+.grow-small {
+  transform: scale(2);
+  background: #fff;
+
+  mix-blend-mode: difference;
+  border: none;
 }
