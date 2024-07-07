@@ -363,6 +363,9 @@ h2 {
     text-align: left;
     margin-bottom: 30px;
   }
+  .cursor {
+    display: none;
+  }
 }
 
 @keyframes up-down {
