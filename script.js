@@ -45,6 +45,6 @@ arkLogo.addEventListener("mousemove", () => {
   arkLogo.textContent = "<AbdulRaheem khan/>";
 });
 arkLogo.addEventListener("mouseleave", () => {
-  arkLogo.textContent = "<ARK/>";
+  arkLogo.textContent = "<ARK />";
 });
 // done
