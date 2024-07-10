@@ -426,7 +426,7 @@ h2 {
 /* HERO */
 #hero {
   width: 100%;
-  height: 100vh;
+  height: 70vh;
 }
 
 #hero:before {
@@ -724,6 +724,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 99px;
 }
 .demo a {
   display: flex;
